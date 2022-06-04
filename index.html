@@ -9,65 +9,87 @@
     <title>IFENEM</title>
 </head>
 <body>
-    <div class="cabecalho">
-        <header>
-            <div class="cont_cab"><!--PARTE PRINCIPAL DO CABEÇALHO-->
-                
-                
-                    <a id="ifpb_link" href="https://www.ifpb.edu.br/home" target="_blank"><img id="ifpb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Instituto_Federal_da_Para%C3%ADba_-_Marca_Vertical_2015.svg/800px-Instituto_Federal_da_Para%C3%ADba_-_Marca_Vertical_2015.svg.png" alt="ifpb"><!--LOGO DO IF-->
-                    <div id="divisao"></a>
-                
-                    <span id="nom">Instituto Federal da Paraíba</span><!--NOME DA INSTITUIÇÃO-->
-                    <br>
-                    <span id="abr"><strong>IFPB</strong></span><!--ABREVIAÇÃO-->
-                    <br>
-                    <span id="me">MINISTÉRIO DA EDUCAÇÃO</span><!--MINISTÉRIO DA EDU-->
-                </div>  
-            </div>
-        </header>
-        
-        <div class="barra_geral">
-            <span id="elemento1" class="elemento_barra">Sumário</span>
-            <span id="elemento2" class="elemento_barra">Exercícios</span>
-            <span id="elemento3" class="elemento_barra">Oque é IFENEM?</span>
-            <!--        ELEMENTOS DA BARRA LATERAL      -->
-            <div class="sumario" id="sumario">
-                <ul id="topcs">
-                    <li><a class="link_sum" href="#">Apresentação</a></li>
-                    <li><a class="link_sum" href="#">Matéria Abordada</a></li>
-                    <li><a class="link_sum" href="#">Atividades para Treinar</a></li>
-                    <li><a class="link_sum" href="#">Links das Atividades</a></li>
-                </ul>
-            </div>
+    <header>
+        <div class="cont_cab"><!--PARTE PRINCIPAL DO CABEÇALHO-->
             
-                <div id="cont_bar"><!--LISTA DOS QUESTIONÁRIOS-->
-                    <span>ENEM 2021</span>
-                    <span>ENEM 2020</span>
-                    <span>ENEM 2019</span>
-                    <span>ENEM 2018</span>
-                </div>
+            
+                <a id="ifpb_link" href="https://www.ifpb.edu.br/home" target="_blank"><img id="ifpb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Instituto_Federal_da_Para%C3%ADba_-_Marca_Vertical_2015.svg/800px-Instituto_Federal_da_Para%C3%ADba_-_Marca_Vertical_2015.svg.png" alt="ifpb"><!--LOGO DO IF-->
+                <div id="divisao"></a>
+            
+                <span id="nom">Instituto Federal da Paraíba</span><!--NOME DA INSTITUIÇÃO-->
+                <br>
+                <span id="abr"><strong>IFPB</strong></span><!--ABREVIAÇÃO-->
+                <br>
+                <span id="me">MINISTÉRIO DA EDUCAÇÃO</span><!--MINISTÉRIO DA EDU-->
+            </div>  
+        </div>
+        
+    </header>
+    <!--        ELEMENTOS DA BARRA LATERAL      -->
+    <!--ELEMENTOS DA BARRA LATERAL-->
+    <div class="lateral_barra">
+        <span id="elemento1" class="elemento_barra"><strong>Sumário</strong></span>
+        <span id="elemento2" class="elemento_barra"><strong>Exercícios</strong></span>
+        <span id="elemento3" class="elemento_barra"><strong>Oque é IFENEM?</strong></span>
+        <div id="sumario">
+                
+                    <div class="parte1">
+                        <p  class="p_sum"><a id="apres" class="link_sum" href="#apresent">Apresentação</a></p>
+                        <br>
+                        <p class="p_sum"><a id="assunt" class="link_sum" href="#assunt">Sociologia</a></p>
+                    </div>
+                    <div class="parte2">
+                        <p class="p_sum"><a id="att" class="link_sum" href="#att">Exercícios</a></p>
+                        <br>
+                        <p class="p_sum"><a id="lik" class="link_sum" href="#links">Links das Atividades</a></p>
+                    </div>
         </div>
     </div>
+    
+    <div id="cont_bar"><!--LISTA DOS QUESTIONÁRIOS-->
+        <span>ENEM 2021</span>
+        <span>ENEM 2020</span>
+        <span>ENEM 2019</span>
+        <span>ENEM 2018</span>
+    </div>
+
     <!--    CONTEÚDO    -->
     <section id="conteudo">
         <img" alt="">
         <h1>IFENEM</h1>
-        <div id="apresent">
+        <hr id="hr_titulo">
+        <div id="apresentacao">
             <h2>Apresentação</h2>
-            <p class="text">Lorem ipsum dolor sit anomt consectetur adipiscing elit, venenatis purus magnis fermentum feugiat vivamus, mi sapien ad habitant gravida scelerisque. Auctor vulputate eros convallis mollis torquent aptent velit adipiscing lacinia, lacus scelerisque praesent consectetur vestibulum sem congue justo fusce risus, curabitur habitant efficitur lectus finibus per vivamus tellus. Laoreet faucibus ut per finibus semper vehicula luctus sagittis torquent nibh, praesent vivamus ultricies eros porta aliquam ridiculus nullam habitant, venenatis quis feugiat cursus varius tortor sit netus tristique. Phasellus lorem neque ex fusce tincidunt nullam libero sit bibendum fermentum, gravida mus varius primis proin ornare cubilia est posuere, aenean magnis volutpat litora habitant ultricies cras feugiat vel. Vulputate magnis ornare sit luctus per varius,</p>
+            <hr>
+            <p class="text">
+                O projeto IFENEM tem como propósito criar um site que auxilie os estudantes nas suas pesquisas para o <abbr title="Exame Nacional do Ensino Médio">ENEM</abbr>, disponibilizando explicações sobre alguns assuntos das matérias abordadas, questionários sobre esses assuntos abordados, além de video aulas para melhor entendimento do estudante. Neste site iremos tratar da matéria de sociologia e dos seus principais assuntos que caem no ENEM. Este trabalho foi feito pelos alunos: Adilson Fernandes, Antony da Silva, Felipe Oliveira e Genyaltt Soares, em conjunto com o professor Alexandre Santos.
+            </p>
         </div>
-        <div class="assunt">
-            <h2>Matéria abordada</h2>
-            <p class="text">Pulvinar diam erat nulla enim dictumst feugiat auctor dolor, sollicitudin dapibus laoreet tincidunt finibus aliquam nullam malesuada parturient, molestie curae fames vivamus sapien tellus sit. Pellentesque bibendum iaculis arcu blandit odio ultrices ad maximus phasellus, semper nulla vivamus mi finibus primis lorem praesent, molestie natoque turpis condimentum sed purus faucibus sit. Leo euismod facilisi eget dui vehicula quis accumsan nibh ac quisque, imperdiet maecenas urna amet vulputate nullam vel fames dolor, eros fermentum elit tortor faucibus cras mauris congue ex. Metus ornare mollis luctus semper nostra fusce viverra laoreet, lorem neque tellus eu lacinia inceptos dis fermentum felis, ridiculus conubia cras nullam pretium vehicula arcu. Viverra mattis primis senectus rhoncus lorem praesent morbi, nisi turpis vestibulum finibus magnis velit interdum, potenti integer sem neque eget quis, at risus fames pharetra ridiculus netus. Habitasse id facilisi platea class nisl montes congue consectetur, nisi ipsum eu dictumst praesent libero posuere quisque, velit finibus accumsan nibh leo maximus eget. Tristique pretium taciti non ligula per sit eu semper, varius malesuada eget accumsan vel tempor interdum finibus et, platea tortor nulla lacinia pellentesque ullamcorper scelerisque.</p>
+        <div id="assunto">
+            <h2>Sociologia</h2>
+            <hr>
+            <p id="t_assunto" class="text">Sociologia é uma ciência situada dentro do conjunto das ciências humanas. O objetivo da sociologia é estudar, entender e classificar as formações sociais, as comunidades e os agrupamentos humanos, para que outras ciências e técnicas possam apresentar propostas de intervenção social que resultem em melhorias na sociedade. Nesse sentido, educadores, médicos, psicólogos, engenheiros, arquitetos, urbanistas, juristas, advogados, publicitários, jornalistas, economistas, enfim, quase todos os profissionais e pesquisadores de quase todas as áreas necessitam das teorias apresentadas pela sociologia.
+            <br>
+            <br>
+            Dentre vários assuntos a serem estudados neste tópico, iremos trabalhar excepcionalmente:</p>
+            <ul>
+                <li>Mundo do Trabalho</li>
+                <li>Cidadania</li>
+                <li>Desigualdades Sociais</li>
+                <li>Cultura</li>
+                <li>Política, estado e governo</li>
+                <li>Movimentos Sociais</li>
+            </ul>
         </div>
-        <div class="att">
-            <h2>Atividades para treinar</h2>
-            <p class="text">Erat volutpat iaculis adipiscing pulvinar interdum morbi curae viverra, inceptos suspendisse odio quam varius congue maecenas, ligula tortor cubilia phasellus malesuada sed sagittis. Risus morbi laoreet arcu vel leo himenaeos consectetur, congue netus turpis magna amet gravida libero non, purus senectus quisque dolor pulvinar id. Ultrices ad iaculis mus ac sollicitudin viverra mattis posuere dictumst, inceptos dis odio phasellus risus tempor praesent magna libero, orci purus aptent vel fermentum enim eleifend montes. Enim elementum mi bibendum auctor leo himenaeos nam nullam, integer penatibus nisl facilisi odio porttitor imperdiet, taciti libero varius rhoncus nunc efficitur curabitur. Class nascetur habitant tortor proin curae sed eu, fermentum purus condimentum penatibus finibus aenean cursus congue, arcu ad amet phasellus convallis ipsum. Vulputate ultrices netus mi eget luctus vivamus varius bibendum porttitor, montes ornare consequat porta inceptos convallis turpis lorem vestibulum, malesuada congue et hendrerit quis curabitur primis nascetur. Sollicitudin porta efficitur porttitor diam tincidunt rhoncus convallis finibus vulputate non suscipit, ligula consectetur facilisi tempus nunc magna ornare velit montes mollis eu congue, vel mi est penatibus sagittis morbi libero rutrum eleifend feugiat.</p>
+        <div id="exer">
+            <h2>Exercícios</h2>
+            <hr>
+            <p id="t_exer" class="text">Erat volutpat iaculis adipiscing pulvinar interdum morbi curae viverra, inceptos suspendisse odio quam varius congue maecenas, ligula tortor cubilia phasellus malesuada sed sagittis. Risus morbi laoreet arcu vel leo himenaeos consectetur, congue netus turpis magna amet gravida libero non, purus senectus quisque dolor pulvinar id. Ultrices ad iaculis mus ac sollicitudin viverra mattis posuere dictumst, inceptos dis odio phasellus risus tempor praesent magna libero, orci purus aptent vel fermentum enim eleifend montes. Enim elementum mi bibendum auctor leo himenaeos nam nullam, integer penatibus nisl facilisi odio porttitor imperdiet, taciti libero varius rhoncus nunc efficitur curabitur. Class nascetur habitant tortor proin curae sed eu, fermentum purus condimentum penatibus finibus aenean cursus congue, arcu ad amet phasellus convallis ipsum. Vulputate ultrices netus mi eget luctus vivamus varius bibendum porttitor, montes ornare consequat porta inceptos convallis turpis lorem vestibulum, malesuada congue et hendrerit quis curabitur primis nascetur. Sollicitudin porta efficitur porttitor diam tincidunt rhoncus convallis finibus vulputate non suscipit, ligula consectetur facilisi tempus nunc magna ornare velit montes mollis eu congue, vel mi est penatibus sagittis morbi libero rutrum eleifend feugiat.</p>
             <br>
             <br>
             <h3>link para as qustões do ENEM:</h3>
             <br>
-            <ul><!--LINKS PARA OS FORMULÁRIOS-->
+            <ul id="links"><!--LINKS PARA OS FORMULÁRIOS-->
                 <li><a href="#">Questões ENEM 2021</a></li>
                 <li><a href="#">Questões ENEM 2020</a></li>
                 <li><a href="#">Questões ENEM 2019</a></li>
@@ -75,11 +97,13 @@
             </ul>
             <br>
             <br>
-            <a href="#">Voltar para o topo</a><!--VOLTAR PARA O TOPO-->
+            <a id="volt" href="#">voltar para o topo</a><!--VOLTAR PARA O TOPO-->
         </div>
     </section>
     <footer><!--RODAPÉ-->
-        não sei oque colocar
+        Alunos: Adilson, Antony, Genyaltt, Felipe
+        
     </footer>
+    <div id="retangulo"></div>
 </body>
 </html>
