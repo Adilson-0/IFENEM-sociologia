@@ -8,7 +8,7 @@ header{
     background-image: linear-gradient(to right,  rgb(7, 70, 7), rgb(8, 175, 8),rgb(8, 180, 8));/*GRADIENTE DO CABEÇALHO*/
     padding-top: 5%;/*DISTÂNCIA DA PARTE SUPERIOR DA PÁGINA*/
     color: white;/*COR DO TEXTO DO CABEÇALHO*/
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 #ifpb{/*CONFIGURAÇÕES DA LOGO DO IFPB*/
@@ -82,9 +82,13 @@ header{
     border-right: solid 2px white;
 }
 #elemento3{/*CONFIG EXPECÍFICA DO ELEMENTO 3*/
+    padding-left: 4%;
+    padding-right: 4%;
+}
+#elemento4{
     padding-left: 2%;
     padding-right: 2%;
-   
+    border-left: solid 2px white;
 }
 .elemento_barra:hover{/*CONFIG PARA MUFAR A COR DO BACKGROUND*/
     background-color: rgb(45, 158, 11);/*MUDANÇA NO BACKGROUND*/
@@ -103,7 +107,7 @@ header{
     transition-duration: 5s;
     text-align: center;
 }
-.link_sum{
+.link_button{
     margin: 5px;
     border-radius: 5px;
     text-decoration: none;
@@ -138,44 +142,132 @@ header{
     border-top: solid 2px white;
     color: white;
 }
-.link_sum:hover{
+.link_button:hover{
     background-color: rgb(45, 158, 11);
     border: solid 2px white;
     color: white;
 }
-#apres{
+#button_1{
     padding-top: 13px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 13px;
 }
-#assunt{
+#button_2{
     padding-top: 13px;
     padding-left: 55px;
     padding-right: 55px;
     padding-bottom: 13px;
 }
-#att{
+#button_3{
     padding-top: 13px;
     padding-left: 55px;
     padding-right: 55px;
     padding-bottom: 13px;
 }
-#lik{
+#button_4{
     padding-top: 13px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 13px;
 }
 .parte1{
-    margin-left: 33%;
+    text-align: center;
     
 }
 .parte2{
-    margin-left: 33%;
+    text-align: center;
 
 }
+.esp{
+    display: grid;
+    place-items: center;
+}
+.red_soc{
+    width: 3%;
+    display: flex;
+    float: right;
+    margin-right: 15px;
+    border-radius: 5px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.links_comp{
+    margin-bottom: 5px;
+    background-color: black;
+}
+#exercicios{
+    margin-top: 7px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+    transition-property: display, background-color;
+    transition-duration: 5s;
+    text-align: center;
+}
+#assuntos{
+    margin-top: 7px;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+    transition-property: display, background-color;
+    transition-duration: 5s;
+    text-align: center;
+}
 
+#elemento2:hover ~ #exercicios{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+    color: white;
+}
+#exercicios:hover{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+    color: white;
+}
+#elemento3:hover ~ #assuntos{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+    color: white;
+}
+#assuntos:hover{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+    color: white;
+}
+#inst, #face{
+    width: 2.5%;
+}
+#inst{
+    margin-right: 7%;
+}
+.red_soc:hover{
+    transform: translateY(-15px);
+}
+#oque_e{
+    margin-top: 6px;
+    display: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition-property: background-color, display;
+    transition-duration: 5s;
+}
+#elemento4:hover ~ #oque_e{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+}
+#oque_e:hover{
+    display: block;
+    background-color: rgb(45, 134, 45);
+    border-top: solid 2px white;
+}
 /*    FORMATAÇÃO DO CONTEÚDO     */
 #conteudo{
     margin-top: 40px;
@@ -196,6 +288,7 @@ h1{
 h1, h2{
     color: rgb(17, 18, 29);
     margin-bottom: 0px;
+    font-family: Galano, Arial, sans-serif;
 }
 #hr_titulo{
     border: solid 2px rgb(3, 75, 3);
@@ -209,6 +302,11 @@ hr{
 .text{
     color: rgb(17, 18, 29);
     margin-bottom: 5%;
+    font-size: 18px;
+    font-family: Galano, Arial, sans-serif;
+}
+li{
+    font-size: 18px;
 }
 footer{
     background-color: rgb(38, 134, 9);
@@ -245,4 +343,3 @@ ul{
 #t_assunto{
     margin-bottom: 15px;
 }
-
