@@ -274,15 +274,7 @@ hr{/*CONFIG DO HR (GERAL)*/
     margin: 0px;
     margin-bottom: 2%;
 }
-.text{/*CONFIG GERAL DOS TEXTOS*/
-    color: rgb(17, 18, 29);
-    margin-bottom: 3%;
-    font-size: 18px;
-    font-family: Galano, Arial, sans-serif;
-}
-#intro{/*ESPAÇAMENTO DA DIV DE INTRODUÇÃO DO TEXTO*/
-    margin-top: 5%;
-}
+
 footer{/*CONFIG DO RODAPÉ*/
     background-color: rgb(38, 134, 9);
     text-align: center;
@@ -300,105 +292,4 @@ footer{/*CONFIG DO RODAPÉ*/
 }
 .parte1, .parte2{/*DISPLAY FLEX DOS BOTÕES DO MENU (PQ ISSO TÁ AQUI???)*/
     display: flex;
-}
-#trab_img{/*TAMANHO DA IMAGEM ILUSTRATIVA*/
-    width: 55%;
-}
-figure{/*CENTRALIZAÇÃO DA IMAGEM*/
-    text-align: center;
-}
-#par_1{/*PARAGRAFO 1 (ESPAÇAMENTO)*/
-    margin-bottom: 5px;
-}
-#par_2{/*PARAGRAFO 2 (ESPAÇAMENTO)*/
-    margin-top: 53px;
-}
-.card{/*CONFIG DO TEXTO E DO FUNDO DO TEXTO DO CARD*/
-    font-family: Galano, Arial, sans-serif;
-    border-radius: 5px;
-}
-#contain_exer{/*CONFIG DO FUNDO DO FUNDO DO CARD*/
-    background-image: url(https://live.staticflickr.com/65535/52155933495_a2e0a79fd0_c.jpg);
-    background-repeat: no-repeat;
-    background-size: 155%;
-    width: 25%;
-    margin-left: 100px;
-    border-radius: 10px;
-    transition-property: background-size;
-    transition-duration: 1s;
-}
-#contain_vid{/*CONFIG DO FUNDO DO FUNDO DO CARD*/
-    background-image: url(https://live.staticflickr.com/65535/52158881036_73eef1485c_c.jpg);
-    background-repeat: no-repeat;
-    background-size: 135%;
-    width: 25%;
-    margin-left: 100px;
-    border-radius: 10px;
-    transition-property: background-size;
-    transition-duration: 1s;
-}
-.title_card{/*CONFIG DO TÍTULO DO CARD*/
-    font-size: 27px;
-}
-#title_vid{/*CONFIG EXPECÍFICA (ALINHAMENTO)*/
-    margin-left: 50px;
-}
-.link_card{/*CONFIG DO LINK DO CARD*/
-    text-decoration: none;
-    color: white;
-}
-.sec{/*UM FUNDO AÍ*/
-    background-color: rgba(73, 73, 73, 0.637);
-    padding-top: 10px;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    padding: 100px;
-}
-#sec_vid{/*CONFIG EXPECÍFICA(EXPAÇAMENTO)*/
-    padding-left: 9px;
-    padding: 0%;
-}
-#sec_exer{
-    padding: 0%;
-}
-#vid{
-    max-width: 100%;
-    padding-left: 75px;
-    padding-top: 90px;
-    padding-bottom: 84px;
-    place-items: left;
-}
-#exer{
-    max-width: 100%;
-    padding-left: 80px;
-    padding-top: 110px;
-    padding-bottom: 55px;
-
-}
-#sec_exer{/*CONFIG EXPECÍFICA(EXPAÇAMENTO)*/
-    padding-bottom: 40px;
-    max-width: 500%;
-    max-height: 100%;
-    min-width: 100%;
-}
-#sec_vid{
-    max-width: 100%;
-    min-width: 100%;
-}
-#contain_exer:hover{/*INTERAÇÃO COM O CARD*/
-    background-size: 165%;
-}
-#contain_vid:hover{/*INTERAÇÃO COM O CARD*/
-    background-size: 150%;
-}
-#cards{/*DISPLAY DA DIV QUE GUARDA OS CARDS*/
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20%;
-}
-#align_cards{
-    background-color: rgb(199, 199, 199);
 }
